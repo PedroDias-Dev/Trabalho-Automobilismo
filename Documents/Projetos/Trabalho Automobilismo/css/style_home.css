@@ -76,6 +76,52 @@ header{
 
 /* ------RODAPÉ----- */
 
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1{
+    text-align: center;
+    margin-left: px;
+    margin-top: 15px;
+}
+
+.Usuario{
+    width: 400px;
+    height: 50px;
+    min-height: 200px;
+    background-color: #E6342E;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 25px;
+    
+    display: flex;
+}
+
+.Usuario h2{
+    margin-left: 20px;
+}
+
+.Usuario img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texto_sobre_usuario{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.texto{
+    margin-left: 15px;
+    font-size: 15px;
+
+}
 
 @media(min-width:800px){
     .container{
