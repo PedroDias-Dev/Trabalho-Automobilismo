@@ -2,7 +2,7 @@
     --fundo: white;
     --light: #ffffff;
     --texto: black;
-    /* --shadow: #c7d2db; */
+    --shadow: #c7d2db;
 }
 
 *{
@@ -45,17 +45,14 @@ header{
     border-radius: 50%;
 }
 
-.rounded{
-    border-radius: 0.7em;
-}
 
 .shadow{
     box-shadow: 6px 6px 10px var(--shadow), -6px -6px 10px var(--light);
 }
 
-/* .shadow1{
-    /* box-shadow: ; */
-/* } */ */
+.shadow1{
+    /* box-shadow: none; */
+}
 
 .inner, .shadow:hover, .shadow:active{
     box-shadow: inset 6px 6px 10px var(--light);
@@ -94,10 +91,13 @@ footer{
     background-color: black;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    align-items: center;
 }
 
 .nav_rodape{
     padding: 1em 2em;
+    padding-left: 2em;
 }
 
 .nav_rodape ul{
@@ -120,17 +120,28 @@ footer{
     align-items: center;
     color: white;
     font-size: 0.7em;
-
+    text-align: center;
+    margin: 0 2em;
 }
+
+
 
 .logo_rodape img{
-    width: 25%;
-    height: 25%;
+    width: 60%;
+    height: 60%;
+
 }
 
-.conteudo1{
-    justify-content: center;
-    margin: 20% 0;
+
+.sociais_rodape{
+    align-items: center;
+    margin: 1em 2em;
+    padding-right: 1em;
+}
+
+.sociais_rodape p{
+    color: white;
+    text-align: center;
 }
 
 /* ------RODAPÉ----- */
@@ -146,10 +157,10 @@ footer{
         width: 25%;
         height: 25%
     }
-/* 
+ 
     .shadow{
-        /* box-shadow: none; */
-    /* } */ */
+         box-shadow: none; 
+    } 
 
     .shadow1{
         box-shadow: 6px 6px 10px var(--shadow), -6px -6px 10px var(--light);
@@ -193,7 +204,9 @@ footer{
     /* ------RODAPÉ----- */
 
 
+
 }
+
 
 @media(min-width:1200px){
     .container img{
