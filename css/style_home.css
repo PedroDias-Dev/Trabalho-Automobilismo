@@ -152,6 +152,73 @@ footer{
 /* ------RODAPÉ----- */
 
 
+h1{
+    text-align: center;
+    margin-left: px;
+    margin-top: 15px;
+}
+
+.Usuario{
+    width: 400px;
+    height: 50px;
+    min-height: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 25px;
+    
+    display: flex;
+}
+
+.Usuario h2{
+    margin-left: -1px;
+}
+
+.Usuario img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 21px;
+    margin-bottom: 10px;
+}
+
+.texto_sobre_usuario{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.texto{
+    margin-left: 15px;
+    font-size: 15px;
+
+}
+
+
+.caixa{
+    width: 60px;
+    height: 40px;
+    padding: 51px;
+    margin: 20px;
+    background-color: #707070;
+    border-radius: 20px;
+}
+
+.area1{
+    display: flex;
+    padding: 0 20px;
+    color: white;
+}
+
+.area2{
+    display: flex;
+    padding: 0 15px;
+    color: white;
+}
+
+.minha_area{
+    text-align: center;
+    margin-top: 30px;
+}
 @media(min-width:800px){
     .container{
         display: flex;
