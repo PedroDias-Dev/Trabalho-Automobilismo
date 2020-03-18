@@ -12,6 +12,7 @@
 
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
 }
 
 /* ------CABEÇALHO------ */
@@ -19,6 +20,7 @@ header{
     background-color: white;
     padding-bottom: 50px;
     align-items: center;
+    width: 100%;
 }
 
 .container{
@@ -90,9 +92,11 @@ header{
 footer{
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: center; */
 }
 
 .nav_rodape{
@@ -101,7 +105,7 @@ footer{
 }
 
 .nav_rodape ul{
-    margin-right: 3em;
+    margin-right: 0em;
 }
 
 .nav_rodape li{
@@ -121,15 +125,14 @@ footer{
     color: white;
     font-size: 0.7em;
     text-align: center;
-    margin: 0 2em;
+    margin: 0 0;
 }
 
 
 
 .logo_rodape img{
-    width: 60%;
-    height: 60%;
-
+    height: 55px;
+    width: 155px;
 }
 
 
@@ -137,6 +140,8 @@ footer{
     align-items: center;
     margin: 1em 2em;
     padding-right: 1em;
+    /* justify-self: flex-end; */
+    margin-left: 25px;
 }
 
 .sociais_rodape p{
@@ -203,6 +208,18 @@ footer{
 
     /* ------RODAPÉ----- */
 
+    
+    .logo_rodape img{
+        height: 8em;
+        width: 20em;
+        /* max-width: 150%;
+        max-height: 150%; */
+    }
+
+    .sociais_rodape{
+        /* margin-left: 255px; */
+        justify-self: flex-end;
+    }
 
 
 }
@@ -257,6 +274,15 @@ footer{
         text-decoration: none;
         color: var(--texto);
     } */
+
+    .logo_rodape img{
+        height: 8em;
+        width: 20em;
+    }
+
+    .sociais_rodape{
+        margin-left: 55px;
+    }
 
 }
 
