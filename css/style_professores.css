@@ -18,9 +18,10 @@ html{
 /* ------CABEÇALHO------ */
 header{
     background-color: white;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     align-items: center;
     width: 100%;
+    justify-content: center;
 }
 
 .container{
@@ -33,6 +34,7 @@ header{
 .container img{
     width: 40%;
     height: 40%;
+    
 }
 
 .icon{
@@ -88,7 +90,61 @@ header{
 
 /* MAIN------------------ */
 
+.banner_principal{
+    background-image: url(../images/banner.jpg);
+    padding-bottom: 35px;
+}
 
+.conteudo2{
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.conteudo2 h1{
+    /* margin-bottom: 0em; */
+    font-size: 3em;
+    color: white;
+}
+
+/* pesquisa e input */
+
+.shadow2{
+   box-shadow: 6px 6px 10px var(--shadow), -6px -6px 10px var(--light);
+}
+
+.input2{
+   display: flex;
+   border: none;
+   background-color: white;
+   margin-left: 10px;
+   margin-right: 220px;
+   font-size: 1em;
+}
+
+.icon2{
+   display: flex;
+   align-items: center;
+}
+
+.btn2{
+   /* padding: 10px; */
+   margin-left: 0;
+}
+
+
+
+.test2{
+   display: flex;
+   align-items: center;
+   border-radius: 2em;
+   justify-content: space-around;
+   background-color: white;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+
+/* pesquisa e input */
     
 /* MAIN------------------ */
 
