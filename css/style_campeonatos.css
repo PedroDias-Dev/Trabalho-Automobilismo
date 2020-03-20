@@ -1,0 +1,512 @@
+:root{
+    --fundo: white;
+    --light: #ffffff;
+    --texto: black;
+    --shadow: #c7d2db;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+/* ------CABEÇALHO------ */
+header{
+    background-color: white;
+    padding-bottom: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container img{
+    width: 40%;
+    height: 40%;
+}
+
+.icon{
+    align-items: center;
+}
+
+.icon1{
+    align-items: center;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+
+.shadow{
+    box-shadow: 6px 6px 10px var(--shadow), -6px -6px 10px var(--light);
+}
+
+
+
+.inner, .shadow:hover, .shadow:active{
+    box-shadow: inset 6px 6px 10px var(--light);
+}
+
+
+.btn{
+    height: 25px;
+    width: 25px;
+    color: black;
+    padding: 10px;
+}
+.btn1{
+    height: 25px;
+    width: 25px;
+    color: black;
+    padding: 10px;
+
+}
+
+
+.input1{
+    display: none;
+}
+
+.nav{
+    display: none;
+}
+
+/* ------CABEÇALHO------ */
+
+
+/* ------RODAPÉ----- */
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.nav_rodape{
+    padding: 1em 2em;
+    padding-left: 2em;
+}
+
+.nav_rodape ul{
+    margin-right: 0em;
+}
+
+.nav_rodape li{
+    margin-bottom: 0.2em;
+    font-size: 0.7em;
+    list-style-type: none;
+    color: white;
+}
+
+.nav_rodape a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo_rodape{
+    align-items: center;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    margin: 0 0;
+}
+
+
+
+.logo_rodape img{
+    height: 55px;
+    width: 155px;
+}
+
+
+.sociais_rodape{
+    align-items: center;
+    margin: 1em 2em;
+    padding-right: 1em;
+    /* justify-self: flex-end; */
+    margin-left: 25px;
+}
+
+.sociais_rodape p{
+    color: white;
+    text-align: center;
+}
+
+/* ------RODAPÉ----- */
+
+.banner{
+    width: 100%;
+    height:  400px;
+    background-image: url( "../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.a{
+    width: 200px;
+    height:  500px;
+  
+}
+
+.rgba{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 15em;
+    height: 400px;
+}
+
+.rgba2{
+    background-color: rgba(0, 0, 0, 0.550);
+    width: 13em;
+    height: 400px;
+}
+
+.rgba3{
+    background-color: rgba(0, 0, 0, 0.623);
+    width: 10em;
+    height: 400px;
+}
+
+.texto_{
+    color: white;
+    padding: 106px;
+    margin-left: -34px;
+    font-size: 25px;
+}
+
+.banner a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 11px 30px;
+    background-color: rgba(0, 0, 0, 0.750);
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px #d4d4d4;
+    color: #fff;
+    margin-left: 122px;
+    font-size: 18px;
+}
+
+.camp_abertos {
+    background-color: #5b6369;
+    width: 328px;
+    height: 500px;
+    min-height: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 18px;
+    padding: 57px 35px;
+    margin-bottom: 10px;
+}
+
+.camp_abertos a {
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    background-color: white;
+    color: rgb(7, 7, 7);
+    margin-left: 197px;
+    font-size: 12px;
+}
+
+.camp_abertos img{
+    width: 150px;
+    height: 96px;
+    padding: 20px 0;
+    display: flex;
+}
+
+
+hr{
+    width: 19em;
+    margin-top: 10px;
+}
+
+.populares {
+    background-color: #5b6369;
+    width: 328px;
+    height: 200px;
+    min-height: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 18px;
+    padding: 57px 35px;
+    margin-bottom: 10px;
+}
+
+.populares a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    background-color: white;
+    color: rgb(7, 7, 7);
+    margin-left: 197px;
+    font-size: 12px;
+}
+
+.populares img{
+    width: 150px;
+    height: 96px;
+    padding: 30px 0;
+    margin-top: -49px;
+}
+
+@media(min-width:800px){
+    .container{
+        display: flex;
+        align-items: center;
+    }
+
+    .container img{
+        width: 25%;
+        height: 25%
+    }
+ 
+    .shadow{
+         box-shadow: none; 
+    } 
+
+    .shadow1{
+        box-shadow: 6px 6px 10px var(--shadow), -6px -6px 10px var(--light);
+    }
+
+    .input1{
+        display: flex;
+        border: none;
+        background-color: white;
+    }
+
+    .icon1{
+        display: flex;
+        align-items: center;
+        order: 2;  /* Coloca o icone de pesquisa depois do logo */
+        /* width: 35px; */
+        border-radius: 2em;
+        justify-content: space-around;
+    }
+
+
+    .icon{
+        order: 3;
+    }
+
+    .btn1{
+        /* padding: 10px; */
+        margin-left: 0;
+    }
+
+    .teste{
+        display: flex;
+        align-items: center;
+
+    }
+    
+    .nav{
+        display: none;
+    }
+
+    /* ------RODAPÉ----- */
+
+    
+    .logo_rodape img{
+        height: 8em;
+        width: 20em;
+        /* max-width: 150%;
+        max-height: 150%; */
+    }
+
+    .sociais_rodape{
+        /* margin-left: 255px; */
+        justify-self: flex-end;
+    }
+
+    .rgba{
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 25em;
+        height: 400px;
+    }
+    
+    .rgba2{
+        background-color: rgba(0, 0, 0, 0.550);
+        width: 20em;
+        height: 400px;
+    }
+    
+    .rgba3{
+        background-color: rgba(0, 0, 0, 0.623);
+        width: 15em;
+        height: 400px;
+    }
+
+    .texto_ {
+        color: white;
+        padding: 81px;
+        margin-left: 4px;
+        font-size: 27px;
+    }
+
+    .banner{
+        width: 900px;
+        height:  400px;
+        background-image: url( "../images/banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .banner a {
+        margin-bottom: 75px;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 11px 30px;
+        background-color: rgba(0, 0, 0, 0.750);
+        border-radius: 10px;
+        box-shadow: 0px 5px 20px #d4d4d4;
+        color: #fff;
+        margin-left: 244px;
+        font-size: 15px;
+    }
+
+    .camp_abertos {
+        background-color: #5b6369;
+        width: 750px;
+        height: 650px;
+        min-height: 200px;
+        margin: 0 auto;
+        border-radius: 20px;
+        margin-top: 48px;
+        padding: 8px 37px;
+        margin-bottom: 6px;
+    }
+    
+    
+    .camp_abertos img {
+        width: 251px;
+        height: 150px;
+        padding: 20px 0;
+        display: flex;
+    }
+
+    .camp_abertos a {
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 3px 9px;
+        background-color: white;
+        color: rgb(7, 7, 7);
+        margin-left: 520px;
+        font-size: 12px;
+    }
+
+    hr {
+        width: 42em;
+        margin-top: 10px;
+    }
+
+    .populares{
+        background-color: #5b6369;
+        width: 697px;
+        height: 300px;
+        min-height: 200px;
+        margin: 0 auto;
+        border-radius: 20px;
+        margin-top: 60px;
+        padding: 8px 37px;
+        margin-bottom: 6px;
+    }
+
+
+    }
+    .populares a{
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 3px 9px;
+        background-color: white;
+        color: rgb(7, 7, 7);
+        margin-left: 520px;
+        font-size: 12px;
+    }
+
+    .populares img {
+        width: 245px;
+        height: 123px;
+        padding: 30px 0;
+        margin-top: -8px;
+    }
+
+@media(min-width:1200px){
+    .container img{
+        width: 15%;
+        height: 15%
+    }
+
+    .nav{
+        display: flex;
+    }
+
+    .nav ul{
+        display: flex;
+    }
+
+    .nav li{
+        margin-right: 3em;
+        font-size: 1em;
+        list-style-type: none;
+    }
+
+    .nav a{
+        text-decoration: none;
+        color: var(--texto);
+    }
+
+    .icon1{
+        display: none;
+    }
+
+    .icon{
+        display: none;
+    }
+
+    /* ------RODAPÉ----- */
+
+    /* .nav_rodape ul{
+        margin-right: 3em;
+    }
+
+    .nav_rodape li{
+        margin-top: 0.2em;
+        font-size: 1em;
+        list-style-type: none;
+    }
+
+    .nav_rodape a{
+        text-decoration: none;
+        color: var(--texto);
+    } */
+
+    .logo_rodape img{
+        height: 8em;
+        width: 20em;
+    }
+
+    .sociais_rodape{
+        margin-left: 55px;
+    }
+
+    
+}
